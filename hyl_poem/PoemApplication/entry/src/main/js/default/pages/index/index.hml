@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="containerA">
+        <text class="title">藏头诗</text>
+        <input class="input" type="text" onchange="textChangeKey" placeholder="{{placeHolder_keyword}}">{{keyword}}</input>
+        <button class="itemBtn" onclick="genHeadPoem" value="{{keywordButton}}"></button>
+
+        <divider class="hr"></divider>
+
+        <text class="title">输入第一句诗</text>
+        <div class="containerB">
+            <input class="input" type="text" onchange="textChangeHead" placeholder="{{placeHolder_headPoem}}">{{headPoem}}</input>
+        </div>
+        <button class="itemBtn" onclick="genPoem" value="{{headPoemButton}}"></button>
+    </div>
+</div>
